@@ -9,17 +9,17 @@ public class Animal {
 
 class Dog extends Animal {
     public void sound(){
-        System.out.println("Dog sounds Bark");
+        System.out.println("Dog sounds: Barking");
     }
 }
 class Cat extends Animal {
     public void sound(){
-        System.out.println("Cat sounds Meow");
+        System.out.println("Cat sounds: Meow");
     }
 }
 class Lion extends Animal {
     public void sound(){
-        System.out.println("Lion sounds Roar");
+        System.out.println("Lion sounds: Roar");
     }
 }
 
