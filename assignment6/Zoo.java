@@ -19,9 +19,8 @@ public class Zoo {
         a1[0]=new Dog();
         a1[1]=new Cat();
         a1[2]=new Lion();
-        a1[0].sound();
-        a1[1].sound();
-        a1[2].sound();
+        for(Animal animal:a1)
+            animal.sound();
 
     }
 }
